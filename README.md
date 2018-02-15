@@ -4,3 +4,4 @@ Patterns:
 
 * Behaviour
 * Observer
+* Decorator
