@@ -1,6 +1,8 @@
 package decorator
 
 class Espresso : Beverage() {
-    override var description: String = "Espresso"
-    override fun cost(): Double = 2.0
+
+    override var description = "Espresso"
+    override fun cost() = 2.0
+
 }

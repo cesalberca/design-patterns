@@ -3,6 +3,7 @@ package decorator
 import decorator.Beverage.Size.MEDIUM
 
 fun main(args: Array<String>) {
+
     val espresso: Beverage = Espresso()
     val espressoWithMocha = Mocha(espresso)
     val espressoWithMochaAndMilk = Milk(espressoWithMocha)
@@ -11,4 +12,5 @@ fun main(args: Array<String>) {
     espressoWithMochaAndMilk.run {
         println("${cost()}€ - $description - $size")
     }
+
 }

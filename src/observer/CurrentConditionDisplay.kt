@@ -22,4 +22,5 @@ class CurrentConditionDisplay(weatherData: Subject) : Observer {
     private fun display() {
         println("${humidity}h ${pressure}p ${temperature}ºC")
     }
+
 }

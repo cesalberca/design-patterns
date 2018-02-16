@@ -3,6 +3,7 @@ package decorator
 import decorator.Beverage.Size.SMALL
 
 abstract class Beverage {
+
     enum class Size {
         TALL, MEDIUM, SMALL
     }
@@ -10,4 +11,5 @@ abstract class Beverage {
     var size = SMALL
     abstract var description: String
     abstract fun cost(): Double
+
 }
